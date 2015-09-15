@@ -29,7 +29,7 @@ public class ChromeTesting extends MyTestCase {
 		
 		
 		//browser.highlight(browser.findAllLinks(driver));
-		//browser.verifyPageLinks();
+		browser.verifyPageLinks();
 		
 		
 		SupportPage supportPage = mainMenu.openSupport();
