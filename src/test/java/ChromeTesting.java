@@ -28,8 +28,8 @@ public class ChromeTesting extends MyTestCase {
 		MainPage mainPage = new MainPage(driver);
 		
 		
-		browser.highlight(browser.findAllLinks(driver));
-		browser.verifyPageLinks();
+		//browser.highlight(browser.findAllLinks(driver));
+		//browser.verifyPageLinks();
 		
 		
 		SupportPage supportPage = mainMenu.openSupport();
